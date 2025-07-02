@@ -198,7 +198,7 @@ else:
         st.markdown("<div style='text-align: justify; font-size: 20px;'>Este gráfico compara las visualizaciones de diferentes tipos de videos en TikTok, como bailes, contenido informativo, noticias, colaboraciones y tendencias. La presencia de categorías como 'Baile' sugiere que los videos de baile son uno de los tipos más populares, seguidos por contenido informativo y colaborativo. Esto refleja las preferencias de los usuarios durante 2021.</div>", unsafe_allow_html=True)
         st.image("grafico_2_tiktok.png", caption='Gráfico de visualizaciones según tipo de video en tiktok', width=500)
         pass
-    elif grafico_seleccionado == 'mapa de mis pelis favoritas':
+    elif grafico_seleccionado == 'Mapa de mis pelis favoritas':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>El mapa muestra la ubicación geográfica del lugar de grabación de mis películas favoritas, utilizando marcadores para indicar los lugares asociados a cada película. Esto permite visualizar de manera interactiva la distribución geográfica de mis preferencias cinematográficas.</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
