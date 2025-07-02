@@ -83,8 +83,7 @@ if pagina_seleccionada == 'Inicio':
 
     texto = """
     ¡Holi! Mi nombre es Adriana Cruz pero mis amigos más intimos me llaman Adrianita, tengo 20 años, soy capricornio y estudio Publicidad en la PUCP. Me apasiona la creatividad, el diseño y la comunicación, y siempre estoy en busca de nuevas oportunidades que me permitan crecer tanto a nivel personal como profesional.
-Más allá de lo académico, me gusta involucrarme en proyectos propios que estimulen mi lado artístico, como la creación de contenido visual y el diseño de ropa. Me considero una persona sensible, comprometida y curiosa, con muchas ganas de aprender y aportar. Mi objetivo es construir un camino donde mi creatividad tenga un impacto positivo .
-
+    Más allá de lo académico, me gusta involucrarme en proyectos propios que estimulen mi lado artístico, como la creación de contenido visual y el diseño de ropa. Me considero una persona sensible, comprometida y curiosa, con muchas ganas de aprender y aportar. Mi objetivo es construir un camino donde mi creatividad tenga un impacto positivo .
     """
 
     # Las comillas triples (""") en Python se utilizan para definir cadenas multilínea.
