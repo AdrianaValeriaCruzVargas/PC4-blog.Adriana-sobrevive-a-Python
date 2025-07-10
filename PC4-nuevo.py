@@ -113,9 +113,8 @@ elif  pagina_seleccionada == 'Experiencia':
     # Agregar un  texto para la respuesta
     texto_2 = """
     Mi experiencia aprendiendo a programar fue un poco ambigua y retadora. Al principio sentía mucha curiosidad y emoción, pero también preocupación y un poco de miedo. Las primeras clases me ayudaron a entender la base de esta disciplina, aunque me costaba conectar todo ese conocimiento: comprendía cómo funcionaba cada código por separado, pero no cómo unirlos.
-Fue en las prácticas en PC, y especialmente en las tareas, donde todo empezó a tener más sentido. Las tareas me dieron el tiempo y el espacio para practicar muchas veces, con un objetivo claro. Al estar enfocadas en temáticas de mi carrera, Publicidad, me emocionaba ver cómo podía personalizar los códigos y aplicarlos profesionalmente. Eso me ayudó a renovar mi motivación.
-Hubo momentos en los que me frustraba por no recordar o no entender del todo, e incluso llegué a dudar de su utilidad en mi carrera. Pero gracias a la práctica constante y al enfoque aplicado de las tareas, logré avanzar y sentirme más segura. Fue un proceso retador, pero también muy enriquecedor.
-
+    Fue en las prácticas en PC, y especialmente en las tareas, donde todo empezó a tener más sentido. Las tareas me dieron el tiempo y el espacio para practicar muchas veces, con un objetivo claro. Al estar enfocadas en temáticas de mi carrera, Publicidad, me emocionaba ver cómo podía personalizar los códigos y aplicarlos profesionalmente. Eso me ayudó a renovar mi motivación.
+    Hubo momentos en los que me frustraba por no recordar o no entender del todo, e incluso llegué a dudar de su utilidad en mi carrera. Pero gracias a la práctica constante y al enfoque aplicado de las tareas, logré avanzar y sentirme más segura. Fue un proceso retador, pero también muy enriquecedor.
     """
 
     # Mostramos el texto
@@ -144,7 +143,7 @@ Hubo momentos en los que me frustraba por no recordar o no entender del todo, e 
     # Por ejemplo, puedes agregar un emoji de video 🎥 
 
     # Agregamos un video realizado en las practicas anteriores
-    st.video("https://drive.google.com/drive/folders/15_bNed2bI2_PnJQLAELXBe76BCXD5qIv")
+    # st.video("https://drive.google.com/drive/folders/15_bNed2bI2_PnJQLAELXBe76BCXD5qIv")
 
     # st.video("https://www.youtube.com/watch?v=X_Z7d04x9-E"): Esta línea está mostrando un video en la aplicación web.
     # La función video toma como primer argumento la URL del video que se desea mostrar.
@@ -152,7 +151,7 @@ Hubo momentos en los que me frustraba por no recordar o no entender del todo, e 
     # Puedes cambiar la URL por la de tu video en YouTube o en otra plataforma de video.
 
     # O creamos un botón para ir al enlace del video con button
-    st.markdown(f"<div style='text-align: center;'><a href='https://drive.google.com/drive/folders/15_bNed2bI2_PnJQLAELXBe76BCXD5qIv' target='_blank'><button>Ver video</button></a></div>", unsafe_allow_html=True) 
+    st.markdown(f"<div style='text-align: center;'><a href='https://drive.google.com/drive/folders/15_bNed2bI2_PnJQLAELXBe76BCXD5qIv' target='_blank'><button>Presiona aqui para ver el videito</button></a></div>", unsafe_allow_html=True) 
 
     # <div style='text-align: center;'><a href='https://drive.google.com/file/d/1REvRXSu3GuGD73w8j44135MkRiezd0gP/view?usp=drive_link' target='_blank'><button>Ver video</button></a></div>:
     # Esta es una cadena de código HTML.
